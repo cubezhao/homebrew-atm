@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       REPO_OWNER: cubezhao
-      MAIN_REPO: augment-token-mng
+      MAIN_REPO: ai-tools-mng
     steps:
       - name: Checkout tap repo
         uses: actions/checkout@v4
@@ -70,10 +70,10 @@ jobs:
 
             arch arm: "aarch64", intel: "x64"
 
-            url "https://github.com/cubezhao/augment-token-mng/releases/download/v#{version}/ATM_#{version}_#{arch}.dmg"
+            url "https://github.com/cubezhao/ai-tools-mng/releases/download/v#{version}/ATM_#{version}_#{arch}.dmg"
             name "ATM"
-            desc "Augment Token Manager - Token management tool for Augment Code"
-            homepage "https://github.com/cubezhao/augment-token-mng"
+            desc "AI Tool Manager - Account management tool for AI Tools"
+            homepage "https://github.com/cubezhao/ai-tools-mng"
 
             sha256 arm:   "${SHA_ARM}",
                    intel: "${SHA_INT}"
