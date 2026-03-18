@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-brew tap zhaochengcube/atm
+brew tap cubezhao/atm
 brew install --cask atm
 Upgrade
 brew update
