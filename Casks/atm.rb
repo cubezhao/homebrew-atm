@@ -1,5 +1,5 @@
 cask "atm" do
-  version "1.9.22"
+  version "2.0.0"
 
   arch arm: "aarch64", intel: "x64"
 
@@ -8,8 +8,8 @@ cask "atm" do
   desc "AI Tool Manager - Account management tool for AI Tools"
   homepage "https://github.com/cubezhao/ai-tools-mng"
 
-  sha256 arm:   "a43ab44e1f9cfcbaa79f340a642f0aacb34caf6df84cbc6743d63f4ce8c6e4c0",
-         intel: "31452de5723b400a676f594e0a5c27e07fe150af52db8bd856b23ed0ce828009"
+  sha256 arm:   "af747dc7f017bd5660d83d4f1cc6b12206201313b37f674ea618c586324f0e2f",
+         intel: "aab88540883c1f0a46018a7b530153bf8d2b9ad62f4a7e17dec46b035eb5ba13"
 
   app "ATM.app"
 
